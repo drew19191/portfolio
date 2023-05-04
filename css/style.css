@@ -1,0 +1,145 @@
+body {
+  margin: 10px;
+  height: 100vh;
+  width: 100vw;
+  margin: 0rem;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 0px;
+  height: 100px;
+
+}
+
+
+button{
+padding: "0%"; 
+}
+.dropdown{
+  height: 50px;
+}
+.btn {
+  height: 100px;
+  
+}
+
+
+.ref{
+   width: 200px;
+  margin: 0;
+  text-align: left;
+  font-size: 22px;
+}
+
+
+#toggle {
+  background-color: #B1A296;
+  padding: 0px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer; 
+}
+
+ul {
+  margin: 30px;
+  padding: 0;
+  list-style-type:none;
+}
+li {
+  margin:15px;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+nav li{
+  position:relative;
+}
+
+nav ul{
+  position: alsolute;
+  display: none;
+}
+
+
+
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 8;
+  gap: 20px;
+  
+  
+
+}
+.resumeButton{
+  align-self: center;
+  
+  
+}
+.aboutMe{
+  max-width: 100px;
+}
+
+
+.flexContainer {
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+#workGrid{
+  display: flex;
+  justify-content: space-around;
+  text-align: center; 
+}
+.card{
+  display: flex;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.skills  {
+  max-width: 300px;
+  text-align: center;}
+  
+
+
+footer {
+  background-color: #B1A296;
+  padding: 5px;
+  color: white;
+}
+.socialMedia{
+  display: flex;
+  flex-direction: column;
+}
+.footerLogo{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .card-homework {
+    width: 100%;
+  }
+}
+
