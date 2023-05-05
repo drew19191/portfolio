@@ -1,4 +1,4 @@
-const words = ["I'm Drew Rosson", "This is my portfolio."];
+const words = ["I'm Drew Rosson", "This is my portfolio.",];
 let i = 0;
 let timer;
 
